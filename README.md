@@ -24,6 +24,14 @@ In [93]: factorise(32990125356016687985769067)
 Found 46 potential solutions
 4898499751721 6734740640627
 Out[93]: [mpz(4898499751721), mpz(6734740640627)]
+
+This takes a few minutes. Gauss Elimination is slow, hopefully the LU Decomposition
+speeds it up.
+In [39]: factorise(mpz(603441351914044057309903171375207),  B=35000, I=100000000)
+Found 156 potential solutions
+28539451776004699 21144111549521893
+Out[39]: [mpz(21144111549521893), mpz(28539451776004699)]
+
 ```
 
 ```
