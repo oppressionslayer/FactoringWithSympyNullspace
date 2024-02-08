@@ -17,3 +17,9 @@ Found 46 potential solutions
 4898499751721 6734740640627
 Out[93]: [mpz(4898499751721), mpz(6734740640627)]
 ```
+
+```
+Added LU Decomposition but it's not working, you just have to comment
+out the current gauss_elim and uncomment the other two lines if you want
+to try to fix it. It would really speed it up.
+```
