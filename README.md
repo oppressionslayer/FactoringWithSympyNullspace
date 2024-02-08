@@ -1,5 +1,9 @@
 # FactoringWithSympyNullspace
-Python Factorization using Sympy Nullspace and Matrix functions
+Python Factorization using Sympy Nullspace and Matrix functions. 
+This only works with numbers with two factors right now, i need
+to fix that but i wanted to at least publish to github. There is
+a bug when ther are more than two factors you will only get a couple
+of factors correct but i will fix this soon
 
 ```
 Factorization using sympy Matrix and Null space operations.
