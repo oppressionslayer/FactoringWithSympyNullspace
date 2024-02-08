@@ -2,8 +2,12 @@
 Python Factorization using Sympy Nullspace and Matrix functions. 
 This only works with numbers with two factors right now, i need
 to fix that but i wanted to at least publish to github. There is
-a bug when ther are more than two factors you will only get a couple
-of factors correct but i will fix this soon
+a bug when there are more than two factors you will only get a couple
+of factors correct but i will fix this soon. 
+
+This works really well but gauss elimination is slowing it down. I have
+LU Decomposition code in here too and that should really speed it up
+but it's not working correctly just yet. 
 
 ```
 Factorization using sympy Matrix and Null space operations.
